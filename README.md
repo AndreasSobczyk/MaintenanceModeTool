@@ -10,4 +10,4 @@ The management pack then contains a event collection rule, CloudMechanic Collect
 It also contains a Event View for these events so you can easily get a overview of them.
 A second rule, CloudMechanic MaintenanceMode Tool Trigger, runs on a schedule every 240 second and will execute a PowerShell script that will set the maintenance mode for the computer based on the comment entered in the application and the username which did it.
 
-For more information see [CloudMechanic.net](https://CloudMechanic.net)
+For more information see [CloudMechanic.net](https://cloudmechanic.net/2016/10/12/maintenance-mode-desktop-shortcut/)
