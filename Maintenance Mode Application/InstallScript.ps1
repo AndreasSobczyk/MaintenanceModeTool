@@ -22,7 +22,7 @@ $ShortcutFile = "$DesktopFolder\Maintenance Mode Tool.lnk"
 
 $WScriptShell = New-Object -ComObject WScript.Shell
 $Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$Shortcut.TargetPath = $Executable
+$Shortcut.TargetPath = $Executable.FullName
 $Shortcut.Save()
 
 
